@@ -2,7 +2,7 @@
 
 This project implements a hybrid deep learning system for detecting and segmenting brain tumors from MRI images using MATLAB. It integrates YOLOv2 for object detection, ResNet50 as a feature extractor, and the Segment Anything Model (SAM) for advanced segmentation.
 
-## 👤 Developer
+##  Developer
 
 - **Mertcan Kankılıç**
 
@@ -12,7 +12,7 @@ This project implements a hybrid deep learning system for detecting and segmenti
 - **ResNet50**: Backbone network to improve feature extraction in YOLOv2.
 - **Segment Anything Model (SAM)**: Used for high-precision segmentation of detected regions.
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 tumor-segmentation-matlab/
