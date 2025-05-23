@@ -6,13 +6,13 @@ This project implements a hybrid deep learning system for detecting and segmenti
 
 - **Mertcan Kankılıç**
 
-## 🧠 Techniques Used
+##  Techniques Used
 
 - **YOLOv2**: For real-time and accurate tumor detection.
 - **ResNet50**: Backbone network to improve feature extraction in YOLOv2.
 - **Segment Anything Model (SAM)**: Used for high-precision segmentation of detected regions.
 
-## 🗂️ Project Structure
+## 🗂 Project Structure
 
 ```
 tumor-segmentation-matlab/
@@ -25,7 +25,7 @@ tumor-segmentation-matlab/
 ├── LICENSE                # License file (MIT)
 ```
 
-## ⚙️ Requirements
+##  Requirements
 
 - MATLAB R2021a or newer
 - Required toolboxes:
@@ -33,7 +33,7 @@ tumor-segmentation-matlab/
   - Deep Learning Toolbox
   - Computer Vision Toolbox
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open MATLAB and navigate to the `src` folder:
    ```matlab
@@ -46,7 +46,7 @@ tumor-segmentation-matlab/
    - **Select Image**: Choose an MRI image for analysis
    - **Analyze**: Perform detection and segmentation
 
-## 🧪 Training Parameters
+##  Training Parameters
 
 | Parameter                 | Value              |
 |---------------------------|--------------------|
@@ -57,30 +57,30 @@ tumor-segmentation-matlab/
 | Augmentation             | Rotation, Shear, Reflection, Scaling |
 | Train/Validation/Test    | 70% / 15% / 15%     |
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Accuracy**: (TP + TN) / (TP + TN + FP + FN)
 - **Precision**: TP / (TP + FP)
 - **Recall**: TP / (TP + FN)
 
-## 🎯 Results
+##  Results
 
 The system achieved high accuracy in detecting and segmenting brain tumors. The GUI provides an integrated, user-friendly interface suitable for clinical workflows. SAM enhances post-detection segmentation precision.
 
-## 📚 Dataset
+##  Dataset
 
 - [Kaggle - Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 
-## 🔒 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute.
 
-## 📬 Contact
+##  Contact
 
 For inquiries or collaboration:  
 📧 mertcankankilic27@gmail.com
 
-## 🧩 Note on Large Files
+##  Note on Large Files
 
 This project uses **Git Large File Storage (LFS)** to manage `.mat` files and other large assets.
 
@@ -89,7 +89,7 @@ If you are cloning this repository or contributing to it, please make sure to in
 ```bash
 git lfs install
 
-## 🧩 Large File Notice (Git LFS Required)
+##  Large File Notice (Git LFS Required)
 
 This project includes `.mat` files managed via **Git Large File Storage (LFS)**.
 
